@@ -26,9 +26,9 @@ exit:
 ## Compile:
 you can use NASM (Netwide Assembler) to assemble the code and ld (GNU Linker) to link it. Here's how you can do it:
 ```
-nasm -f elf64 myprogram.asm     // Assemble the code
+nasm -f elf64 main.asm     // Assemble the code
 
-ld -o myprogram myprogram.o    // Link the assembled object file
+ld -o helloworld main.o    // Link the assembled object file
 ```
 ## Q/A
 #### register:
