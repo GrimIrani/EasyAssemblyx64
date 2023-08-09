@@ -33,3 +33,7 @@ nasm -f elf64 main.asm     // Assemble the code
 
 ld -o SimpleInput main.o    // Link the assembled object file
 ```
+## Q/A:
+#### Buffer:
+Q: What is a buffer? </br>
+A: A buffer is like a temporary storage area that holds data. Imagine it as a container where information can be stored before being used or processed.
