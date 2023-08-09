@@ -33,6 +33,9 @@ nasm -f elf64 main.asm     // Assemble the code
 
 ld -o SimpleInput main.o    // Link the assembled object file
 ```
+# HomeWork:
+write a code that echo the input.</br>
+just copy/past, it's too simple believe me.
 ## Q/A:
 #### Buffer:
 Q: What is a buffer? </br>
