@@ -19,12 +19,12 @@ exit:
     xor ebx, ebx         ; Exit code (0)
     int 0x80             ; Call the kernel
 ```
-- We use **eax** register to store the system call number (like requesting a specific operation from the operating system).
-- We use **ebx** reglobal _startgister to store information like file descriptors or addresses.
-- We use **ecx** register to hold strings or memory addresses.
-- We use **edx** register to hold lengths or sizes of data being manipulated.
+- We use [**eax** register](https://github.com/GrimIrani/EasyAssemblyx64/tree/main/01-HelloWorld#register) to store the system call number (like requesting a specific operation from the operating system).
+- We use [**ebx** register](https://github.com/GrimIrani/EasyAssemblyx64/tree/main/01-HelloWorld#register) to store information like file descriptors or addresses.
+- We use [**ecx** register](https://github.com/GrimIrani/EasyAssemblyx64/tree/main/01-HelloWorld#register) to hold strings or memory addresses.
+- We use [**edx** register](https://github.com/GrimIrani/EasyAssemblyx64/tree/main/01-HelloWorld#register) to hold lengths or sizes of data being manipulated.
 ## Compile:
-you can use NASM (Netwide Assembler) to assemble the code and ld (GNU Linker) to link it. Here's how you can do it:
+you can use [NASM (Netwide Assembler)](https://github.com/GrimIrani/EasyAssemblyx64/tree/main/01-HelloWorld#assemble) to [assemble](https://github.com/GrimIrani/EasyAssemblyx64/tree/main/01-HelloWorld#assemble) the code and [ld (GNU Linker)](https://github.com/GrimIrani/EasyAssemblyx64/tree/main/01-HelloWorld#ld-and-link) to link it. Here's how you can do it:
 ```
 nasm -f elf64 main.asm     // Assemble the code
 
