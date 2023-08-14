@@ -30,6 +30,8 @@ nasm -f elf64 main.asm     // Assemble the code
 
 ld -o helloworld main.o    // Link the assembled object file
 ```
+# HomeWork:
+Change the code to print "0123456789abcdef"
 ## Q/A
 #### register:
 Q: What's a **register**? </br>
