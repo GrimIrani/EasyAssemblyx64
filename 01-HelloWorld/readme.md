@@ -46,3 +46,18 @@ A: An assembler is a program that translates assembly language code into machine
 
 Q: What does **"format"** refer to in **"nasm -f elf64"**? </br>
 A: In the context of NASM, the format option specifies the output file format for the assembled code. The elf64 format refers to the Executable and Linkable Format (ELF) for x86-64 architecture. It is commonly used on Unix-like operating systems, including Linux.
+
+#### More questions:
+Q: So I code in assembly, but it's not machine code? <br/>
+A: Any assembly language is for humans <br/>
+and the only language the system know is the machine code <br/>
+you write assembly and the assembler translate it to machine code.
+
+Q: Why we need assembler? why can't assembly run itself, I mean it's low level. </br>
+A: The assembler do not more then a translate its like this:
+| Assembly | opcode |
+| -------- | ------ |
+| null | null |
+
+you can use a HEX editor to see the executable file exacly made from translating assembly to this opcodes.
+
