@@ -1,4 +1,4 @@
-|   Folder   | Description | Like |
+|   Folder   | Description | Link |
 | ---------- | ----------- | ---- |
 | Notes/mike | Mike's x86-64 Assembly (ASM) Notes | https://gist.github.com/mikesmullin/6259449 |
 | Sites/felixcloutier | x86 and amd64 instruction reference |https://www.felixcloutier.com/x86
