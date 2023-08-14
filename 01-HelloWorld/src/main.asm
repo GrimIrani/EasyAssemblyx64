@@ -1,5 +1,5 @@
 section .data
-    message db 'Hello, World!',0
+    message db '0123456789abcdef',0
 
 section .text
     global _start
@@ -9,7 +9,7 @@ _start:
     mov eax, 4           ; System call number for write
     mov ebx, 1           ; File descriptor (stdout)
     mov ecx, message     ; Address of the message string
-    mov edx, 13          ; Length of the message
+    mov edx, 16          ; Length of the message
     int 0x80             ; Call the kernel
 
 exit:
