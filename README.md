@@ -9,4 +9,4 @@ It's **learn-by-doing**, you will learn with doing small homeworks!
 - **TNT(Test 'N Test)**: this will boom!
 
 ## My resources:
-null
+See **"resource"** folder and **"resources/Sources.md"** file.
