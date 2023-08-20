@@ -5,7 +5,7 @@ A tutorial to learn assembly x86_64(x64) in easy way!
 null
 
 ## How to learn:
-It's [**learn-by-doing**](https://en.wikipedia.org/wiki/Learning-by-doing), you'll learn with doing small homeworks!
+It's [**learn-by-doing**](https://en.wikipedia.org/wiki/Learning-by-doing)!
 
 ## My resources:
 See **"resource"** folder and **"resources/Sources.md"** file.
