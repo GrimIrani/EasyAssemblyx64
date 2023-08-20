@@ -5,8 +5,7 @@ A tutorial to learn assembly x86_64(x64) in easy way!
 null
 
 ## How to learn:
-It's **learn-by-doing**, you will learn with doing small homeworks!
-- **TNT(Test 'N Test)**: this will boom!
+It's [**learn-by-doing**](https://en.wikipedia.org/wiki/Learning-by-doing), you'll learn with doing small homeworks!
 
 ## My resources:
 See **"resource"** folder and **"resources/Sources.md"** file.
