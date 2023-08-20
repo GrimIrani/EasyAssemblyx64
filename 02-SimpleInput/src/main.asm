@@ -17,10 +17,10 @@ _start:
     mov eax,3            ; System call number for read
     mov ebx,0            ; File descriptor (stdin)
     mov ecx,buffer       ; Address of the buffer to store input
-      mov edx,32              ; Maximum length of input
-      int 0x80                ; Call the kernel
+    mov edx,32           ; Maximum length of input
+    int 0x80             ; Call the kernel
 
 exit:
     mov eax,1               ; System call number for exit
-      xor ebx,ebx             ; Exit code (0)
-      int 0x80                ; Call the kernel
+    xor ebx,ebx             ; Exit code (0)
+    int 0x80                ; Call the kernel
