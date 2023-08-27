@@ -7,3 +7,4 @@
 | PDFs/gamehacking | Want to learn game hacking? | [URL](https://gamehacking.academy/), [Download](https://gamehacking.academy/GameHackingAcademy.pdf)
 | Notes/muff-in | Assembly Language / Reversing / Malware Analysis / Game Hacking | [gist](https://gist.github.com/muff-in/ff678b1fda17e6188aa0462a99626121) |
 | Notes/0xZ0F | Reverse engineering focusing on x64 Windows. | [Github](https://github.com/0xZ0F/Z0FCourse_ReverseEngineering) |
+| Sites/ost2 | OpenSecurityTraining2 | [URL](p.ost2.fyi) |
